@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 
 import inquirer from "inquirer"
 
@@ -42,7 +43,10 @@ let user_answer = await inquirer.prompt([
         name: "to",
         type: "list",
         message: "Enter to currency ",
-        choices: ['USD', 'EUR', 'GBP', 'JPY', 'CNY', 'PKR']
+        choices: ['USD', 'INR', 'PKR','Germany_EUR', 'France_EUR','BRL', 'ItalyEuro',
+        'Russian_Ruble', 'Mexican_Peso', 'Indonesian_Rupiah','South_Korean_Won','Canadian_Dollar',
+         'GBP', 'JPY', 'Spain_Euro', 'Argentine_Peso', 'Australian_Dollar', 'Colombian_Peso',
+         'Nigerian_Naira', 'Egyptian_Pound', 'CNY']
         },
 
         {
